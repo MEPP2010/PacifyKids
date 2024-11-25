@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PacifyKids</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header">
+    <h1>PacifyKids</h1>
+    <p>Tu guía para manejar pataletas y frustración infantil</p>
+  </header>
+
+  <nav id="nav">
+    <a href="#">Nosotros</a>
+    <a href="#">Servicios</a>
+    <a href="#">Trabajos</a>
+    <a href="#">Clientes</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <main id="main">
+    <section class="hero-container">
+    <img src="images/FAMILIA.jpg" alt="Imagen de fondo" class="background-image">
+    <div class="hero-content">
+        <h2 class="hero-title">Que tus hijos vivan una experiencia positiva</h2>
+        <p class="hero-text">Brindamos herramientas prácticas para un desarrollo emocional saludable.</p>
+    </div>
+</section>
+    
+      <section class="contact-form">
+        <h3>¿Tienes una consulta?</h3>
+        <input type="text" placeholder="Tu consulta">
+        <input type="text" placeholder="Nombre">
+        <input type="tel" placeholder="Teléfono">
+        <input type="email" placeholder="Email">
+        <button>Enviar</button>
+      </section>
+    
+      <section class="services" id="services">
+        <a class="service" href="faq.html">
+          <img src="images/FAQ.png" alt="Icono 1">
+          <h4>Preguntas Frecuentes</h4>
+        </a>
+        <a class="service" href="activities.html">
+          <img src="images/actividades.png" alt="Icono 2">
+          <h4>Actividades</h4>
+        </a>
+        <a class="service" href="tips.html">
+          <img src="images/consejos.png" alt="Icono 3">
+          <h4>Consejos</h4>
+        </a>
+        <a class="service" href="resources.html">
+          <img src="images/resources.png" alt="Icono 4">
+          <h4>Recursos</h4>
+        </a>
+      </section>
+    </section>
+    
+    
+    <!-- Contenedores de contenido (solo uno se mostrará a la vez) -->
+    <div id="faq" class="content-section">
+      <h2>Preguntas Frecuentes</h2>
+      <div id="faq-content"></div>
+    </div>
+
+    <div id="activities" class="content-section">
+      <h2>Actividades</h2>
+      <div id="activities-content"></div>
+    </div>
+
+    <div id="tips" class="content-section">
+      <h2>Consejos</h2>
+      <div id="tips-content"></div>
+    </div>
+
+    <div id="resources" class="content-section">
+      <h2>Recursos</h2>
+      <div id="resources-content"></div>
+    </div>
+
+    <!-- Agregar un botón para volver al inicio -->
+    <button id="backButton" class="back-button" onclick="goBack()">Volver</button>
+
+
+
+
+  </main>
+
+  <footer>
+    <p>PacifyKids - Todos los derechos reservados &copy; 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
